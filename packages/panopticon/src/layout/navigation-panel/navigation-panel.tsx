@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
 
-import { Story } from 'src/lib'
+import { Story } from 'src/lib/types'
 
 interface NavigationPanelProps {
   stories?: Array<Story>;
