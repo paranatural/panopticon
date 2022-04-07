@@ -1,0 +1,21 @@
+{
+  "name": "@panopticon/stdlib",
+  "version": "0.0.0",
+  "author": "unordinarity <unordinarity@yandex.ru>",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "peerDependencies": {
+    "@panopticon/core": "0.0.0"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.7",
+    "@radix-ui/colors": "^0.1.8"
+  },
+  "devDependencies": {
+    "@panopticon/core": "0.0.0"
+  }
+}

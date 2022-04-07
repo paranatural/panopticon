@@ -4,7 +4,10 @@
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "@commitlint/format": "^13.1.0",
-    "lerna": "^4.0.0",
-    "simple-git-hooks": "^2.6.1"
-  }
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "examples/*/*"
+  ]
 }

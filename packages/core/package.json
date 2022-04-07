@@ -1,0 +1,36 @@
+{
+  "name": "@panopticon/core",
+  "version": "0.0.0",
+  "author": "unordinarity <unordinarity@yandex.ru>",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "dependencies": {
+    "@mdi/js": "^5.9.55",
+    "@mdi/react": "^1.5.0",
+    "@radix-ui/colors": "^0.1.8",
+    "@stitches/react": "^1.2.7",
+    "clsx": "^1.1.1",
+    "effector": "^21.8.11",
+    "effector-react": "^21.3.2",
+    "modern-css-reset": "^1.4.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@types/react": "^17.0.4",
+    "@types/react-dom": "^17.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.70.1",
+    "rollup-plugin-dts": "^4.2.0",
+    "tslib": "^2.3.1",
+    "type-fest": "^1.1.1"
+  }
+}
