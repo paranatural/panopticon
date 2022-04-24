@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Knob } from '@panopticon/core'
+import { Knob } from 'panopticon-core'
 
 export const BooleanCheckbox: Knob<boolean | undefined> = ({
   defaultValue,

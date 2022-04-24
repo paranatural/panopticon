@@ -1,6 +1,6 @@
 ![Panopticon logo](./.github/logo.svg)
 
-# ▼ Panopticon
+# ⬡ Panopticon
 
 React component playground/gallery as React component
 
@@ -8,27 +8,35 @@ React component playground/gallery as React component
 [![GitHub license](https://img.shields.io/github/license/unordinarity/panopticon?style=flat-square)](./docs/license)
 [![NPM bundle size](https://img.shields.io/bundlephobia/minzip/react?style=flat-square)](https://bundlephobia.co/result?p=react)
 
-[![Feature-Sliced Design][shields-fsd-image]](https://github.com/unordinarity/malotru)
+[![Feature-Sliced Design][shields-fsd-image]](https://feature-sliced.design/)
 [![Code style: Malotru](https://img.shields.io/badge/Code_style-Malotru-red?style=flat-square)](https://github.com/unordinarity/malotru)
 [![TypeScript support](https://img.shields.io/badge/TypeScript-out--of--box-blue?style=flat-square)](https://www.typescriptlang.org/)
 
-# ▼ Motivation/Promise
+# ⬡ Motivation/Promise
 
 Panopticon works/feels like any other React component and doesn't force/lead you to write a lot of configs/stories just for setting up a component playground. That's why it keeps consistent/unified build workflow/pipeline for your application.
 
-# ▼ Installation
+# ⬡ Installation
 
-`yarn add @panopticon/core @panopticon/stdlib`
+```shell
+yarn add panopticon-core panopticon-stdlib
+```
 
-`npm i @panopticon/core @panopticon/stdlib`
+```shell
+npm i panopticon-core panopticon-stdlib
+```
 
-# ▼ Use/Enjoy/Examples
+```shell
+pnpm add panopticon-core panopticon-stdlib
+```
+
+# ⬡ Use/Enjoy/Examples
 
 ```typescript jsx
 import React, { FunctionComponent } from 'react'
 import { render } from 'react-dom'
-import { Gallery } from '@panopticon/core'
-import { BooleanCheckbox } from '@panopticon/stdlib'
+import { Gallery } from 'panopticon-core'
+import { BooleanCheckbox } from 'panopticon-stdlib'
 
 // imagine this is your component
 const Button: FunctionComponent = () => <button />
@@ -60,20 +68,24 @@ render(
 
 Simple, right? No configs or build pipelines/plugins, just components.
 
-Check out [other simple examples](./examples/usage) and [router integration guides](./examples/integrations).
+Check out [other examples](./examples/usage) and [router integration guides](./examples/integrations).
 
-# ▼ API
+# ⬡ API
 
-[`@panopticon/core`](./packages/core/readme.md)
+[`panopticon-core`](./packages/core/readme.md)
 
-[`@panopticon/stdlib`](./packages/stdlib/readme.md)
+Gallery and IFrame components, type definitions
 
-# ▼ Contribution
+[`panopticon-stdlib`](./packages/stdlib/readme.md)
 
-Feel free to open an issue/discussion with feature request or bug report, but ensure you read/follow [Contributor Covenant Code of Conduct](./docs/code_of_conduct.md)
+Collection of knobs for common/general purposes
 
-# ▼ Background
+# ⬡ Contribution
 
-Project name and writing style heavily inspired by [Control game](https://www.remedygames.com/games/control/) (made by Remedy)
+Feel free to open an issue/discussion with request/report, but ensure you read/follow [Contributor Covenant Code of Conduct](./docs/code_of_conduct.md)
 
-[shields-fsd-image]: https://img.shields.io/badge/Feature--Sliced-Design-F92672?logoWidth=32&style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADJSURBVHgB7dfhCYMwEAXgd8UBHKHdoCOkI3SEblInaUfoCO0GbtCMkA3i5YeQH2I8OHIB/UAEeaiYx0koMhg6wVjHh8eeEVfgD0O0+xKaS0vwEuQHIvLQFGUclDUxiG6C/AhlqQNPGDrmQOrAA4Y61BV4jnzyC7U74PkFLvmFJjowoJ6AhRf4YruRP2FYC/CK9ny6zg/k/PrwijIOBSmT5Ys/uiY68Bbkw4aMz+75Q/OijIOyY2NiTroxuRcHi1BagrMg30OZeQknPcrQWNgGlSgAAAAASUVORK5CYII=
+# ⬡ Background
+
+Project name, logo and writing style heavily inspired by [Control game](https://www.remedygames.com/games/control/) (made by [Remedy Entertainment](https://www.remedygames.com/))
+
+[shields-fsd-image]: https://img.shields.io/badge/Feature--Sliced-Design-F92672?logoWidth=32&style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9Ii0xIC0xIDI0IDI0Ij4KICA8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDIzdjJIMFYwWm0wIDNoMjN2MkgwVjNabTAgM2g4djJIMFY2Wm0wIDNoMjN2MkgwVjlabTAgM2gyMHYySDB2LTJabTAgM2g4djJIMHYtMlptMTUgMGgydjJoLTJ2LTJaTTAgMThoOHYySDB2LTJabTAgM2g4djJIMHYtMloiLz4KPC9zdmc+Cg==

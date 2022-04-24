@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Gallery } from '@panopticon/core'
+import { Gallery } from 'panopticon-core'
 
 import 'modern-css-reset'
 

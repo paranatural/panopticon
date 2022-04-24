@@ -1,5 +1,5 @@
 {
-  "name": "@panopticon/example-basic",
+  "name": "panopticon-example-basic",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@panopticon/core": "0.0.0",
-    "@panopticon/stdlib": "0.0.0",
+    "panopticon-core": "0.0.0",
+    "panopticon-stdlib": "0.0.0",
     "modern-css-reset": "^1.4.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

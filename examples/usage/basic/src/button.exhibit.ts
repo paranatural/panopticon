@@ -1,6 +1,6 @@
 import { ComponentProps } from 'react'
-import { Exhibit } from '@panopticon/core'
-import { BooleanCheckbox } from '@panopticon/stdlib'
+import { Exhibit } from 'panopticon-core'
+import { BooleanCheckbox } from 'panopticon-stdlib'
 
 import { Button } from './button'
 

@@ -1,13 +1,21 @@
 # Panopticon stdlib
 
-> Collection of knobs for general purposes
+Collection of knobs for common/general purposes
 
-# ▼ Installation
+# ⬡ Installation
 
-`yarn add @panopticon/stdlib`
+```shell
+yarn add panopticon-stdlib
+```
 
-`npm i @panopticon/stdlib`
+```shell
+npm i panopticon-stdlib
+```
 
-# ▼ Usage
+```shell
+pnpm add panopticon-stdlib
+```
 
-# ▼ API
+# ⬡ Usage
+
+# ⬡ API

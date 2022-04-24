@@ -10,6 +10,14 @@ const plugins = [
   typescript(),
 ]
 
+const externalLibs = [
+  'react',
+  '@stitches/react',
+  '@radix-ui/colors',
+  '@mdi/js',
+  '@mdi/react',
+]
+
 export default defineConfig([{
   input: 'src/index.ts',
   plugins: [...plugins],
@@ -17,7 +25,7 @@ export default defineConfig([{
     file: 'dist/index.js',
     format: 'es',
   }],
-  external: ['react']
+  external: externalLibs
 }, {
   input: 'src/index.ts',
   plugins: [...plugins, dts()],
@@ -25,5 +33,5 @@ export default defineConfig([{
     file: 'dist/index.d.ts',
     format: 'es',
   },
-  external: ['react']
+  external: externalLibs
 }])

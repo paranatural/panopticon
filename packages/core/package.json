@@ -1,5 +1,5 @@
 {
-  "name": "@panopticon/core",
+  "name": "panopticon-core",
   "version": "0.0.0",
   "author": "unordinarity <unordinarity@yandex.ru>",
   "scripts": {

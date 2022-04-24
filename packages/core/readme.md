@@ -1,13 +1,21 @@
 # Panopticon core
 
-> Library core - Gallery, IFrame and type definitions
+Gallery and IFrame components, type definitions
 
-# ▼ Installation
+# ⬡ Installation
 
-`yarn add @panopticon/core`
+```shell
+yarn add panopticon-core
+```
 
-`npm i @panopticon/core`
+```shell
+npm i panopticon-core
+```
 
-# ▼ Usage
+```shell
+pnpm add panopticon-core
+```
 
-# ▼ API
+# ⬡ Usage
+
+# ⬡ API
