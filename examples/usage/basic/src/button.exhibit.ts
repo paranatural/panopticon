@@ -6,8 +6,8 @@ import { Button } from './button'
 
 export const buttonExhibit: Exhibit<ComponentProps<typeof Button>> = {
   component: Button,
-  name: '',
-  description: '',
+  name: 'Button',
+  description: 'Good old button',
   props: {
     disabled: BooleanCheckbox,
   }

@@ -1,12 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React, { FunctionComponent } from 'react'
+import { createRoot } from 'react-dom/client'
 import { Gallery } from 'panopticon-core'
 
 import 'modern-css-reset'
 
 import { buttonExhibit } from './button.exhibit'
 
-const PanopticonPage = () => (
+const PanopticonPage: FunctionComponent = () => (
   <Gallery
     exhibits={[
       buttonExhibit
@@ -14,7 +14,5 @@ const PanopticonPage = () => (
   />
 )
 
-ReactDOM.render(
-  <PanopticonPage />,
-  document.querySelector('#root'),
-)
+createRoot(document.querySelector('#root')!)
+  .render(<PanopticonPage />)

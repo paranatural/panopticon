@@ -1,13 +1,15 @@
-import React, { FunctionComponent } from 'react'
+import React, { FunctionComponent, ReactNode } from 'react'
 
 interface Props {
-
+  children?: ReactNode,
+  className?: string
 }
 
 export const ComponentFrame: FunctionComponent<Props> = ({
+  className,
   children
 }) => (
-  <div>
+  <div className={className}>
     {children}
   </div>
 )

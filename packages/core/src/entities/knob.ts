@@ -8,5 +8,4 @@ export type Knob<T> = ComponentType<{
   className?: string
 
   ref?: never
-  children?: never
 }>

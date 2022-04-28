@@ -4,8 +4,8 @@ import { gray, red } from '@radix-ui/colors'
 export const stitches = createStitches({
   theme: {
     colors: {
-      background: gray.gray1,
-      surface: gray.gray2,
+      background: gray.gray2,
+      surface: gray.gray1,
       divider: gray.gray6,
       border: gray.gray7,
       uiDormant: red.red9,
@@ -31,7 +31,7 @@ export const stitches = createStitches({
         '"Fira Sans", ' +
         '"Droid Sans", ' +
         '"Helvetica Neue", ' +
-        '"Arial, ' +
+        '"Arial", ' +
         'sans-serif',
       paragraph:
         'system-ui, ' +
@@ -45,7 +45,7 @@ export const stitches = createStitches({
         '"Fira Sans", ' +
         '"Droid Sans", ' +
         '"Helvetica Neue", ' +
-        '"Arial, ' +
+        '"Arial", ' +
         'sans-serif',
       code:
         'ui-monospace, ' +

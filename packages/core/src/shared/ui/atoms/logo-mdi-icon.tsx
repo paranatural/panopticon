@@ -1,5 +1,5 @@
 import React, { ComponentProps, FunctionComponent } from 'react'
-import Icon from '@mdi/react'
+import { Icon } from '@mdi/react'
 
 const mdiSvgPath =
   'M6.79289 1.5H17.2071L22.5 6.79289V17.2071L17.2071 22.5H6.79289L1.5 17.2071V6.79289L6.79289 1.5Z' +
@@ -15,7 +15,7 @@ const mdiSvgPath =
 
 interface Props extends Omit<ComponentProps<typeof Icon>, 'path'> {}
 
-export const LogoIcon: FunctionComponent<Props> = ({
+export const LogoMdiIcon: FunctionComponent<Props> = ({
   ...props
 }) => (
   <Icon

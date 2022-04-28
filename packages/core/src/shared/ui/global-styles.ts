@@ -5,6 +5,7 @@ const globalStyles = stitches.globalCss({
     height: '100%',
   },
   body: {
+    backgroundColor: '$background',
     fontFamily: '$paragraph',
     color: '$textSecondary',
   }
