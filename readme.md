@@ -1,17 +1,27 @@
-![Panopticon logo](./.github/logo.svg)
-
-# ⬡ Panopticon
+<div align='center'>
+    <picture>
+        <source media='(prefers-color-scheme: dark)' srcset='./.github/panopticon-logo-light-160.png' />
+        <source media='(prefers-color-scheme: light)' srcset='./.github/panopticon-logo-dark-160.png' />
+        <img src='./.github/panopticon-logo-dark-160.png' />
+    </picture>
+    <h1>⬡ Panopticon</h1>
+</div>
 
 React component playground/gallery as React component
 
 [![Feature-Sliced Design][shields-fsd-image]](https://feature-sliced.design/)
-[![GitHub license](https://img.shields.io/github/license/unordinarity/panopticon?style=flat-square)](./docs/license)
+![Tests: no](https://img.shields.io/badge/tests-no-red?style=flat-square)
+![Coverage: 146%](https://img.shields.io/badge/coverage-146%25-green?style=flat-square)
+![Build: sometimes](https://img.shields.io/badge/build-sometimes-yellow?style=flat-square)
+[![GitHub license](https://img.shields.io/github/license/paranatural/panopticon?style=flat-square)](./docs/license)
 [![Malotru code style](https://img.shields.io/badge/Code_style-Malotru-red?style=flat-square)](https://github.com/unordinarity/malotru)
 [![TypeScript support](https://img.shields.io/badge/TypeScript-out--of--box-blue?style=flat-square)](https://www.typescriptlang.org/)
 
 # ⬡ Motivation/Promise
 
 Panopticon works/feels like any other React component and doesn't force/lead you to write a lot of configs/stories just for setting up a component playground. That's why it keeps consistent/unified build workflow/pipeline for your application.
+
+# ⬡ Features
 
 # ⬡ Installation
 
