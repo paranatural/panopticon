@@ -1,5 +1,5 @@
 {
-  "name": "panopticon-stdlib",
+  "name": "panopticon-types",
   "version": "0.0.0",
   "license": "MIT",
   "author": "unordinarity <unordinarity@yandex.ru>",
@@ -8,18 +8,14 @@
   },
   "type": "module",
   "types": "dist/index.d.ts",
-  "module": "dist/index.js",
   "peerDependencies": {
-    "panopticon-core": "0.0.0",
-    "panopticon-types": "0.0.0",
     "react": "^18.0.0"
   },
-  "dependencies": {
-    "@radix-ui/colors": "^0.1.8",
-    "@stitches/react": "^1.2.7"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.2",
     "@types/react": "^18.0.6",
-    "panopticon-core": "0.0.0"
+    "rollup": "^2.70.2",
+    "rollup-plugin-dts": "^4.2.1"
   }
 }

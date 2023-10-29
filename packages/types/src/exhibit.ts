@@ -1,6 +1,6 @@
 import { ComponentType } from 'react'
 
-import { Knob } from 'src/entities/knob'
+import { Knob } from './knob'
 
 export interface Exhibit<Props extends {} = {}> {
   name?: string;
