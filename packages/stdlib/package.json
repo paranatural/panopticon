@@ -1,5 +1,5 @@
 {
-  "name": "panopticon-stdlib",
+  "name": "@panopticon/stdlib",
   "version": "0.0.0",
   "license": "MIT",
   "author": "unordinarity <unordinarity@yandex.ru>",
@@ -10,8 +10,8 @@
   "types": "dist/index.d.ts",
   "module": "dist/index.js",
   "peerDependencies": {
-    "panopticon-core": "0.0.0",
-    "panopticon-types": "0.0.0",
+    "@panopticon/panopticon": "0.0.0",
+    "@panopticon/types": "0.0.0",
     "react": "^18.0.0"
   },
   "dependencies": {
@@ -19,7 +19,7 @@
     "@stitches/react": "^1.2.7"
   },
   "devDependencies": {
-    "@types/react": "^18.0.6",
-    "panopticon-core": "0.0.0"
+    "@panopticon/panopticon": "0.0.0",
+    "@types/react": "^18.0.6"
   }
 }

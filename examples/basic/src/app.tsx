@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
 import { createRoot } from 'react-dom/client'
-import { Gallery } from 'panopticon-core'
+import { Gallery } from '@panopticon/panopticon'
 
 import 'modern-css-reset'
 

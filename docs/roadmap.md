@@ -1,3 +1,0 @@
-# Backlog
-
-UI theme customizing

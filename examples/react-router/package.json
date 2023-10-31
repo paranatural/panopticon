@@ -1,0 +1,24 @@
+{
+  "name": "@panopticon/example-react-router",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "develop": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@panopticon/panopticon": "^0.0.0",
+    "@panopticon/stdlib": "^0.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "@vitejs/plugin-react": "^4.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  }
+}
