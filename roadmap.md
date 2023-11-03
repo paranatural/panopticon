@@ -4,15 +4,15 @@ Versioned roadmap with technical details
 
 ## 0.1 (initial release)
 
-- @panopticon/panopticon: well-defined API
-- @panopticon/panopticon: stable build
-- @panopticon/panopticon: stable run on examples
+- @paranatural/panopticon: well-defined API
+- @paranatural/panopticon: stable build
+- @paranatural/panopticon: stable run on examples
 - no typescript errors and warnings
 - fresh dependencies
 
 ## 0.2
 
-- @panopticon/stdlib: more knobs
+- @paranatural/panopticon-stdlib: more knobs
 
 ## 0.3
 

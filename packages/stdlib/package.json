@@ -1,8 +1,25 @@
 {
-  "name": "@panopticon/stdlib",
+  "name": "@paranatural/panopticon-stdlib",
   "version": "0.0.0",
+  "description": "Collection of knobs for Panopticon (React component playground as React component)",
+  "author": {
+    "name": "Anton Medvedev",
+    "email": "unordinarity@yandex.ru"
+  },
+  "keywords": [
+    "paranatural",
+    "panopticon",
+    "react",
+    "gallery",
+    "playground"
+  ],
   "license": "MIT",
-  "author": "unordinarity <unordinarity@yandex.ru>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paranatural/panopticon.git",
+    "directory": "packages/stdlib"
+  },
+  "homepage": "https://github.com/paranatural/panopticon",
   "scripts": {
     "build": "rollup --config rollup.config.js"
   },
@@ -10,8 +27,8 @@
   "types": "dist/index.d.ts",
   "module": "dist/index.js",
   "peerDependencies": {
-    "@panopticon/panopticon": "0.0.0",
-    "@panopticon/types": "0.0.0",
+    "@paranatural/panopticon": "0.0.0",
+    "@paranatural/panopticon-types": "0.0.0",
     "react": "^18.0.0"
   },
   "dependencies": {
@@ -19,7 +36,7 @@
     "@stitches/react": "^1.2.7"
   },
   "devDependencies": {
-    "@panopticon/panopticon": "0.0.0",
+    "@paranatural/panopticon": "0.0.0",
     "@types/react": "^18.0.6"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@panopticon/example-react-router",
+  "name": "@paranatural/panopticon-example-react-router",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@panopticon/panopticon": "^0.0.0",
-    "@panopticon/stdlib": "^0.0.0",
+    "@paranatural/panopticon": "^0.0.0",
+    "@paranatural/panopticon-stdlib": "^0.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0"

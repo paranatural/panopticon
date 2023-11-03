@@ -1,8 +1,25 @@
 {
-  "name": "@panopticon/panopticon",
+  "name": "@paranatural/panopticon",
   "version": "0.0.0",
+  "description": "React component playground as React component",
+  "author": {
+    "name": "Anton Medvedev",
+    "email": "unordinarity@yandex.ru"
+  },
+  "keywords": [
+    "paranatural",
+    "panopticon",
+    "react",
+    "gallery",
+    "playground"
+  ],
   "license": "MIT",
-  "author": "unordinarity <unordinarity@yandex.ru>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paranatural/panopticon.git",
+    "directory": "packages/panopticon"
+  },
+  "homepage": "https://github.com/paranatural/panopticon",
   "scripts": {
     "build": "rollup --config rollup.config.js"
   },
@@ -24,11 +41,10 @@
     "re-resizable": "^6.9.8"
   },
   "devDependencies": {
-    "@rollup/plugin-alias": "^3.1.9",
-    "@rollup/plugin-image": "^2.1.1",
     "@rollup/plugin-typescript": "^8.3.2",
     "@types/react": "^18.0.6",
     "react": "^18.0.0",
+    "read-pkg-up": "^10.1.0",
     "rollup": "^2.70.2",
     "rollup-plugin-dts": "^4.2.1"
   }

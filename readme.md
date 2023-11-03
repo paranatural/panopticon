@@ -7,14 +7,14 @@
     <h1>⬡ Panopticon</h1>
 </div>
 
-React component playground/gallery as React component
+React component playground as React component
 
 [![Feature-Sliced Design][shields-fsd-image]](https://feature-sliced.design/)
 ![Tests: no](https://img.shields.io/badge/tests-no-red?style=flat-square)
 ![Coverage: 146%](https://img.shields.io/badge/coverage-146%25-green?style=flat-square)
 ![Build: sometimes](https://img.shields.io/badge/build-sometimes-yellow?style=flat-square)
 [![GitHub license](https://img.shields.io/github/license/paranatural/panopticon?style=flat-square)](license.md)
-[![Types support](https://img.shields.io/npm/types/panopticon/panopticon?style=flat-square)](https://www.npmjs.com/package/panopticon-core)
+[![Types support](https://img.shields.io/npm/types/paranatural/panopticon?style=flat-square)](https://www.npmjs.com/package/panopticon-core)
 [![Malotru code style](https://img.shields.io/badge/code_style-Malotru-red?style=flat-square)](https://github.com/unordinarity/malotru)
 
 # ⬡ Motivation/Promise

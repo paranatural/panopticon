@@ -1,42 +1,35 @@
 import { defineConfig } from 'rollup'
-import alias from '@rollup/plugin-alias'
-import image from '@rollup/plugin-image'
 import typescript from '@rollup/plugin-typescript'
+import { readPackageUpSync } from 'read-pkg-up'
 import dts from 'rollup-plugin-dts'
+import Module from 'module'
 
-const plugins = [
-  alias({
-    entries: [{ find: 'src', replacement: 'src' }],
-  }),
-  typescript(),
-  image(),
-]
-
-const externalLibs = [
-  '@mdi/js',
-  '@mdi/react',
-  '@radix-ui/colors',
-  '@stitches/react',
-  'effector',
-  'effector-react',
-  're-resizable',
-  'react',
-]
+const packageJson = readPackageUpSync({ normalize: true }).packageJson
 
 export default defineConfig([{
   input: 'src/index.ts',
-  plugins: [...plugins],
+  plugins: [typescript()],
   output: [{
     file: 'dist/index.js',
     format: 'es',
   }],
-  external: externalLibs
+  external: [
+    ...Object.keys(packageJson.devDependencies ?? {}),
+    ...Object.keys(packageJson.dependencies ?? {}),
+    ...Object.keys(packageJson.peerDependencies ?? {}),
+    ...Module.builtinModules.map(m => `node:${m}`)
+  ],
 }, {
   input: 'src/index.ts',
-  plugins: [...plugins, dts()],
+  plugins: [typescript(), dts()],
   output: {
     file: 'dist/index.d.ts',
     format: 'es',
   },
-  external: externalLibs
+  external: [
+    ...Object.keys(packageJson.devDependencies ?? {}),
+    ...Object.keys(packageJson.dependencies ?? {}),
+    ...Object.keys(packageJson.peerDependencies ?? {}),
+    ...Module.builtinModules.map(m => `node:${m}`)
+  ],
 }])
