@@ -10,8 +10,10 @@
     "paranatural",
     "panopticon",
     "react",
+    "component",
     "gallery",
-    "playground"
+    "playground",
+    "storybook"
   ],
   "license": "MIT",
   "repository": {
