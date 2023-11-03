@@ -4,18 +4,11 @@
         <source media='(prefers-color-scheme: light)' srcset='./.github/panopticon-logo-dark-160.png' />
         <img src='./.github/panopticon-logo-dark-160.png' />
     </picture>
-    <h1>⬡ Panopticon</h1>
 </div>
 
-React component playground as React component
+# ⬡ Panopticon
 
-[![Feature-Sliced Design][shields-fsd-image]](https://feature-sliced.design/)
-![Tests: no](https://img.shields.io/badge/tests-no-red?style=flat-square)
-![Coverage: 146%](https://img.shields.io/badge/coverage-146%25-green?style=flat-square)
-![Build: sometimes](https://img.shields.io/badge/build-sometimes-yellow?style=flat-square)
-[![GitHub license](https://img.shields.io/github/license/paranatural/panopticon?style=flat-square)](license.md)
-[![Types support](https://img.shields.io/npm/types/paranatural/panopticon?style=flat-square)](https://www.npmjs.com/package/panopticon-core)
-[![Malotru code style](https://img.shields.io/badge/code_style-Malotru-red?style=flat-square)](https://github.com/unordinarity/malotru)
+React component playground as React component
 
 # ⬡ Motivation/Promise
 
