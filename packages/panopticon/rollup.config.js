@@ -1,35 +1,41 @@
+import Module from 'node:module'
+
 import { defineConfig } from 'rollup'
-import typescript from '@rollup/plugin-typescript'
+import typescriptPlugin from '@rollup/plugin-typescript'
 import { readPackageUpSync } from 'read-pkg-up'
-import dts from 'rollup-plugin-dts'
-import Module from 'module'
+import typescriptDtsPlugin from 'rollup-plugin-dts'
 
 const packageJson = readPackageUpSync({ normalize: true }).packageJson
 
 export default defineConfig([{
   input: 'src/index.ts',
-  plugins: [typescript()],
+  plugins: [
+    typescriptPlugin(),
+  ],
   output: [{
-    file: 'dist/index.js',
+    file: packageJson.module,
     format: 'es',
   }],
   external: [
     ...Object.keys(packageJson.devDependencies ?? {}),
     ...Object.keys(packageJson.dependencies ?? {}),
     ...Object.keys(packageJson.peerDependencies ?? {}),
-    ...Module.builtinModules.map(m => `node:${m}`)
+    ...Module.builtinModules.map(m => `node:${m}`),
   ],
 }, {
   input: 'src/index.ts',
-  plugins: [typescript(), dts()],
+  plugins: [
+    typescriptPlugin(),
+    typescriptDtsPlugin(),
+  ],
   output: {
-    file: 'dist/index.d.ts',
+    file: packageJson.types,
     format: 'es',
   },
   external: [
     ...Object.keys(packageJson.devDependencies ?? {}),
     ...Object.keys(packageJson.dependencies ?? {}),
     ...Object.keys(packageJson.peerDependencies ?? {}),
-    ...Module.builtinModules.map(m => `node:${m}`)
+    ...Module.builtinModules.map(m => `node:${m}`),
   ],
 }])

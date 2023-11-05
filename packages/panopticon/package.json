@@ -2,9 +2,11 @@
   "name": "@paranatural/panopticon",
   "version": "0.0.0",
   "description": "React component playground as React component",
+  "license": "MIT",
   "author": {
     "name": "Anton Medvedev",
-    "email": "unordinarity@yandex.ru"
+    "email": "unordinarity@yandex.ru",
+    "url": "https://github.com/unordinarity"
   },
   "keywords": [
     "paranatural",
@@ -15,7 +17,6 @@
     "playground",
     "storybook"
   ],
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/paranatural/panopticon.git",
@@ -23,7 +24,13 @@
   },
   "homepage": "https://github.com/paranatural/panopticon",
   "scripts": {
-    "build": "rollup --config rollup.config.js"
+    "develop": "exit 0",
+    "format": "exit 0",
+    "lint": "exit 0",
+    "typecheck": "tsc --noEmit",
+    "test": "exit 0",
+    "build": "rollup -c rollup.config.js",
+    "clean": "rimraf dist"
   },
   "type": "module",
   "types": "dist/index.d.ts",
